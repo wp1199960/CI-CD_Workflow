@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: repository
         uses: actions/checkout@v4
 
       - name: Build step
@@ -32,7 +32,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Upload evilIndex.html as an artifact
+      - name: Upload index.html as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: webpage
