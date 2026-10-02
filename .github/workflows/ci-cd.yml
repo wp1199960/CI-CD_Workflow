@@ -7,7 +7,7 @@ name: Simple CI/CD Workflow
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: will-os
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
