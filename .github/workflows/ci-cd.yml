@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy step
-        run: echo "Deployment successful to staging"
+        run: jkhbjhn
 
   upload-artifact:
     runs-on: ubuntu-latest
